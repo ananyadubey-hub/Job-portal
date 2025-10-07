@@ -1,0 +1,20 @@
+{
+  "name": "mernstack",
+  "version": "1.0.0",
+  "description": "job-portal",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd Backend && npm start",
+    "client": "cd recritex && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+
+
